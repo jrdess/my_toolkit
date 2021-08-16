@@ -6,10 +6,11 @@ pip>=9
 
 
 # tests/linter
-
+pytest
+coverage
 
 # API
 
 
 # utilities
-pytest
+
