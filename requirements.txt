@@ -6,8 +6,11 @@ pip>=9
 
 
 # tests/linter
-pytest
+black
 coverage
+flake8
+pytest
+yapf
 
 # API
 
