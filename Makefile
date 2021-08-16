@@ -11,8 +11,8 @@ black:
 	@black scripts/* my_toolkit/*.py
 
 test:
-	@coverage run -m pytest tests/*.py
-	@coverage report -m --omit="${VIRTUAL_ENV}/lib/python*"
+	@coverage run -m pytest tests/test_*.py
+	# @coverage report -m --omit="${VIRTUAL_ENV}/lib/python*"
 
 ftest:
 	@Write me
